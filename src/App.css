@@ -1,8 +1,6 @@
 .App {
+  font-family: 'Inter', sans-serif;
   text-align: center;
-}
-
-.App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -10,4 +8,77 @@
   align-items: center;
   justify-content: center;
   color: white;
+}
+#headshot{
+  width:317px;
+  height:317px;
+  border-radius: 10px 10px 0px 0px;
+  margin: 0px;
+}
+.App-header{
+  margin:0px;
+  height: 317px;
+}
+.main{
+  margin-top:0px;
+  background: #1A1B21;
+  height: 384px;
+  width: 317px;
+  border-radius: 0px 0px 10px 10px;
+}
+.header-1{
+  margin-top: 21px;
+  font-size: 25px;
+  font-weight: 700;
+}
+.header-2{
+  margin-top: 21px;
+  font-size: 16px;
+  text-align:start;
+  margin-left: 35px;
+  font-weight: 700;
+}
+.content{
+  margin-top: 5px;
+  font-size: 10px;
+  margin-left: 35px;
+  margin-right: 35px;
+  text-align: start;
+  color: #DCDCDC;
+  line-height: 15px;
+  font-weight: 400;
+}
+.job-title{
+  font-size: 13px;
+  color: #F3BF99;
+  margin-top: 6px;
+  font-weight: 400;
+}
+.contact{
+  margin-top: 9px;
+  font-weight: 400;
+}
+a{
+  color:#F5F5F5;
+  text-decoration: none;
+  font-size: 10px;
+}
+.icon-email{
+  background-color: transparent;
+  width:14px;
+  height:14px;
+  margin-right: 8px;
+  /* padding-top: 2px; */
+}
+.button-email{
+  /* display: inline-block; */
+  /* text-justify: auto; */
+  /* text-align: center; */
+  margin-top:16px;
+  width: 247px;
+  /* height: 34px; */
+  font-size: 14px;
+  line-height: 12px;
+  padding: 9px 9px 9px 9px;
+  border-radius: 6px;
 }
