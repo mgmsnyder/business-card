@@ -1,6 +1,7 @@
 // import email from './email.png'
 
 export default function Main(){
+
   return(
     <div className='main'>
       <div className="header-1">Mat Snyder</div>
@@ -8,10 +9,12 @@ export default function Main(){
       <div className='contact'>
         <a href='https://github.com/mgmsnyder'>github.com/mgmsnyder</a>
       </div>
+      <a href="mailto:mgmsnyder@gmail.com">
       <button className='button-email'>
         {/* <img src={email} className='icon-email' alt='' /> */}
         Email
       </button>
+      </a>
       <div className="header-2">About</div>
       <div className="content">I am a developer with a particular interest in making things organized and efficient. I am not only interested in technological processing and data flow, but also the interpersonal processes that allow for effective individual and team work.</div>
       <div className="header-2">Interests</div>
